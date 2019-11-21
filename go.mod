@@ -1,4 +1,4 @@
-module github.com/youngsheng/go-flutter-plugin/peerdiscovery
+module github.com/youngsheng/peerdiscovery
 
 go 1.13
 
