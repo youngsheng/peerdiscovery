@@ -7,7 +7,13 @@ import (
 	"time"
 )
 
-func peerDicovers() (str string, err error){
+type(
+	DataProcessor struct{
+	// add fields here
+	}
+)
+
+func (p *DataProcessor) PeerDicovers() (str string, err error){
 	discoveries, err := peerdiscovery.Discover(peerdiscovery.Settings{
 		Limit:     -1,
 		Payload:   []byte("ubuntu"),
